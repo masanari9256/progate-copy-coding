@@ -1,0 +1,187 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 1;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-left img{
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-right{
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login{
+  padding: 0 25px;
+  line-height: 65px;
+  display: block;
+  color: white;
+}
+
+.top-wrapper{
+  background-image: url(./img/top.png);
+  background-size: cover;
+  padding: 180px 0 100px 0;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  opacity: 0.7;
+  letter-spacing: 5px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.top-wrapper p{
+  opacity: 0.7;
+}
+
+.btn{
+  display: inline-block;
+  padding: 8px 24px;
+  opacity: 0.8;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  opacity: 1.0;
+}
+
+.signup{
+  margin: 30px 0 15px 0;
+  background-color: #239b76;
+}
+
+.facebook{
+  margin-top: 15px;
+  margin-right: 10px;
+  background-color: #3b5998;
+}
+
+.twitter{
+  margin-top: 15px;
+  background-color: #55acee;
+}
+
+.lesson-wrapper{
+  height: 580px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson-wrapper h2{
+  padding: 80px 0 50px 0;
+  color: #5f5d60
+}
+
+.lesson{
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon{
+  position: relative;
+}
+
+.lesson-icon p{
+  position: absolute;
+  width: 100%;
+  top: 90px;
+  color: white;
+}
+
+.lesson-description{
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+  color: #b3aeb5;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.message-wrapper{
+  text-align: center;
+  padding: 80px 0;
+}
+
+.message-heading{
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.message-heading h2,
+.message-heading h3{
+  font-weight: normal;
+}
+
+.message-wrapper span{
+  padding: 15px 40px;
+  background-color: #5dca88;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0px 7px #1a7940;
+  cursor: pointer;
+}
+
+.message-wrapper span:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer{
+  border-top: 1px solid #eee;
+  padding: 30px 0;
+}
+
+footer img{
+  width: 124px;
+}
+
+footer p{
+  color: #b3aeb5;
+}
